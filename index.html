@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushi Verma | MERN Stack Developer Portfolio</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Khushi Verma, a passionate MERN Stack Developer specializing in responsive web design, React, Node.js, and modern full-stack web applications.">
+    <meta name="keywords" content="Khushi Verma, Developer, MERN Stack, React Developer, Node JS, Frontend, Full Stack Developer, Indore, Harda">
+    <meta name="author" content="Khushi Verma">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Background Decoration Glows -->
+    <div class="bg-glow-1"></div>
+    <div class="bg-glow-2"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <span>KV</span> Khushi Verma
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link nav-btn">Hire Me</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content fade-in-element">
+                <div class="hero-badge">
+                    <span></span> MERN Stack Developer
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Khushi Verma</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    I build <span class="gradient-text-accent" id="typingText"></span>
+                </h2>
+                <p class="hero-desc">
+                    A passionate Full Stack MERN Developer and IT Fresher. I create dynamic, user-friendly, and responsive web applications with clean, modern code architectures.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Let's Connect <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#projects" class="btn btn-secondary">Explore Projects</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/khushi-verma07" target="_blank" class="social-link" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/khushiiverma/" target="_blank" class="social-link" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:khushivrma07@gmail.com" class="social-link" aria-label="Email Me"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="tel:+919302306764" class="social-link" aria-label="Call Me"><i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+            
+            <div class="hero-visual fade-in-element">
+                <div class="profile-card-wrapper">
+                    <div class="profile-ring"></div>
+                    <div class="profile-ring-2"></div>
+                    <div class="profile-img-container">
+                        <img src="Img.jpeg" alt="Khushi Verma Profile Picture">
+                    </div>
+                </div>
+                
+                <!-- Floating Tech Badges -->
+                <div class="floating-tech-badge tb-1">
+                    <i class="fa-brands fa-react" style="color: #61dbfb;"></i>
+                    <span>React JS</span>
+                </div>
+                <div class="floating-tech-badge tb-2">
+                    <i class="fa-brands fa-node-js" style="color: #3c873a;"></i>
+                    <span>Node JS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header fade-in-element">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">My Story & Passion</h2>
+                <p class="section-desc">Get to know the developer behind the code, my background, and what drives me forward.</p>
+            </div>
+            
+            <div class="about-grid fade-in-element">
+                <div class="about-cards">
+                    <div class="about-card">
+                        <div class="about-card-icon"><i class="fa-solid fa-user"></i></div>
+                        <h3>Who Am I?</h3>
+                        <p>I'm a Developer and IT Fresher with expertise in creating dynamic, responsive web applications. I focus on building applications with clean, efficient, and scalable code.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <h3>My Journey</h3>
+                        <p>My journey in web development started with curiosity about building interactive user experiences. Through academic study, projects, and online learning, I have mastered frontend and database development.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon"><i class="fa-solid fa-heart"></i></div>
+                        <h3>My Passion</h3>
+                        <p>I love designing responsive interfaces, integrating RESTful APIs, and implementing optimal database structures. When not coding, I'm exploring new web tools, frameworks, and solving analytical problems.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header fade-in-element">
+                <span class="section-tag">My Toolbox</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-desc">Technologies, frameworks, and programming languages that I use daily to build modern applications.</p>
+            </div>
+
+            <div class="skills-categories fade-in-element">
+                <button class="skills-category-btn active" data-filter="all"><i class="fa-solid fa-layer-group"></i> All Tech</button>
+                <button class="skills-category-btn" data-filter="frontend"><i class="fa-solid fa-desktop"></i> Frontend</button>
+                <button class="skills-category-btn" data-filter="backend"><i class="fa-solid fa-server"></i> Backend</button>
+                <button class="skills-category-btn" data-filter="programming"><i class="fa-solid fa-code"></i> Programming</button>
+            </div>
+
+            <div class="skills-grid fade-in-element" id="skillsGrid">
+                <!-- Frontend -->
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon-container"><i class="fa-brands fa-html5"></i></div>
+                    <span class="skill-name">HTML5</span>
+                </div>
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon-container"><i class="fa-brands fa-css3-alt"></i></div>
+                    <span class="skill-name">CSS3</span>
+                </div>
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon-container"><i class="fa-brands fa-js"></i></div>
+                    <span class="skill-name">JavaScript</span>
+                </div>
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon-container"><i class="fa-brands fa-react"></i></div>
+                    <span class="skill-name">React.js</span>
+                </div>
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon-container">
+                        <!-- Custom CSS SVG Tailwind representation -->
+                        <i class="fa-solid fa-wind"></i>
+                    </div>
+                    <span class="skill-name">Tailwind CSS</span>
+                </div>
+                
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon-container"><i class="fa-solid fa-laptop-code"></i></div>
+                    <span class="skill-name">jQuery</span>
+                </div>
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-icon-container"><i class="fa-brands fa-wordpress"></i></div>
+                    <span class="skill-name">WordPress</span>
+                </div>
+                
+                <!-- Backend -->
+                <div class="skill-card" data-category="backend">
+                    <div class="skill-icon-container"><i class="fa-brands fa-node-js"></i></div>
+                    <span class="skill-name">Node.js</span>
+                </div>
+                <div class="skill-card" data-category="backend">
+                    <div class="skill-icon-container"><i class="fa-solid fa-cube"></i></div>
+                    <span class="skill-name">Express.js</span>
+                </div>
+                <div class="skill-card" data-category="backend">
+                    <div class="skill-icon-container"><i class="fa-solid fa-database"></i></div>
+                    <span class="skill-name">MongoDB</span>
+                </div>
+                <div class="skill-card" data-category="backend">
+                    <div class="skill-icon-container"><i class="fa-solid fa-server"></i></div>
+                    <span class="skill-name">MySQL</span>
+                </div>
+                <div class="skill-card" data-category="backend">
+                    <div class="skill-icon-container"><i class="fa-brands fa-php"></i></div>
+                    <span class="skill-name">PHP</span>
+                </div>
+
+                <!-- Programming -->
+                <div class="skill-card" data-category="programming">
+                    <div class="skill-icon-container"><i class="fa-brands fa-java"></i></div>
+                    <span class="skill-name">Core Java</span>
+                </div>
+                <div class="skill-card" data-category="programming">
+                    <div class="skill-icon-container"><i class="fa-brands fa-git-alt"></i></div>
+                    <span class="skill-name">Git & GitHub</span>
+                </div>
+                <div class="skill-card" data-category="programming">
+                    <div class="skill-icon-container"><i class="fa-solid fa-gears"></i></div>
+                    <span class="skill-name">OOPs</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header fade-in-element">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-desc">A selection of my recent full-stack applications and frontend interfaces.</p>
+            </div>
+
+            <div class="projects-filter fade-in-element">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+            </div>
+
+            <div class="projects-grid fade-in-element" id="projectsGrid">
+                
+                <!-- HelpDesk Management System -->
+                <div class="project-card" data-type="fullstack">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80&w=600" alt="HelpDesk Management System">
+                        <div class="project-overlay">
+                            <div class="project-overlay-links">
+                                <a href="https://github.com/khushi-verma07/helpdesk-management-system.git" target="_blank" class="project-overlay-btn" aria-label="GitHub Code"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://helpdesk-management-system-qz5mbhqvd.vercel.app/" target="_blank" class="project-overlay-btn" aria-label="Live Demo"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Full Stack</span>
+                        <h3 class="project-title">HelpDesk Management System</h3>
+                        <p class="project-desc">An automated ticketing system facilitating service request creation, status tracking, internal routing, and agent collaboration workflows for streamlined customer support.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">MEAN Stack</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">REST API</span>
+                            <span class="project-tag">Vercel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food-Zone -->
+                <div class="project-card" data-type="fullstack">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=600" alt="Food Zone App">
+                        <div class="project-overlay">
+                            <div class="project-overlay-links">
+                                <a href="https://github.com/khushi-verma07/Food-Zone" target="_blank" class="project-overlay-btn" aria-label="GitHub Code"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://food-zone-delta-blond.vercel.app/" target="_blank" class="project-overlay-btn" aria-label="Live Demo"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Full Stack</span>
+                        <h3 class="project-title">Food-Zone</h3>
+                        <p class="project-desc">A food delivery platform featuring real-time menu browsing, ordering, Razorpay integration, and a dedicated admin portal to manage food lists and orders.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React.js</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EduLinker -->
+                <div class="project-card" data-type="fullstack">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=600" alt="EduLinker Platform">
+                        <div class="project-overlay">
+                            <div class="project-overlay-links">
+                                <a href="https://github.com/khushi-verma07/EduLinker" target="_blank" class="project-overlay-btn" aria-label="GitHub Code"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://edu-linker-f65z-n9jjbhuue-khushi-vermas-projects-1bbaa978.vercel.app/" target="_blank" class="project-overlay-btn" aria-label="Live Demo"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Full Stack</span>
+                        <h3 class="project-title">EduLinker</h3>
+                        <p class="project-desc">Study sharing and tutor connection platform. Integrated payment gateways, customized AI resource recommendation cards, and custom search and indexing tags.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">MERN Stack</span>
+                            <span class="project-tag">Razorpay</span>
+                            <span class="project-tag">AI Search</span>
+                            <span class="project-tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Astroventure Website -->
+                <div class="project-card" data-type="frontend">
+                    <div class="project-img-wrapper">
+                        <div class="project-badge-in-progress">In Process</div>
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=600" alt="Astroventure Website">
+                        <div class="project-overlay">
+                            <div class="project-overlay-links">
+                                <a href="https://github.com/khushi-verma07/Astroventure.git" target="_blank" class="project-overlay-btn" aria-label="GitHub Code"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://astroventureweb.netlify.app/" target="_blank" class="project-overlay-btn" aria-label="Live Demo"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Frontend</span>
+                        <h3 class="project-title">Astroventure Website</h3>
+                        <p class="project-desc">A premium, immersive space travel tourism portal featuring customizable flight cabins, live astronaut training simulations, and real-time voyage calculators.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Animations</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RSS Client Website -->
+                <div class="project-card" data-type="frontend">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80&w=600" alt="RSS Client Website">
+                        <div class="project-overlay">
+                            <div class="project-overlay-links">
+                                <a href="https://github.com/khushi-verma07/ATUL_RAI_WEB_PROJECT.git" target="_blank" class="project-overlay-btn" aria-label="GitHub Code"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://atulraiweb.netlify.app/" target="_blank" class="project-overlay-btn" aria-label="Live Demo"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Frontend</span>
+                        <h3 class="project-title">RSS Client Website</h3>
+                        <p class="project-desc">A professional and responsive RSS feed client web interface designed for displaying curated news and articles with premium typography and dynamic feed filtering.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Netlify</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- E-Commerce -->
+                <div class="project-card" data-type="frontend">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=600" alt="E-Commerce Website">
+                        <div class="project-overlay">
+                            <div class="project-overlay-links">
+                                <a href="https://github.com/khushi-verma07/E-Commerce" target="_blank" class="project-overlay-btn" aria-label="GitHub Code"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://magnificent-clafoutis-b692a5.netlify.app" target="_blank" class="project-overlay-btn" aria-label="Live Demo"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Frontend</span>
+                        <h3 class="project-title">Clothing E-Commerce</h3>
+                        <p class="project-desc">A beautiful, fully-responsive shopping interface with categorized listings, product filter controls, custom checkout flows, and premium typography details.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">Bootstrap</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">CSS Grid</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HR Management -->
+                <div class="project-card" data-type="backend">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=600" alt="HR System Database">
+                        <div class="project-overlay">
+                            <div class="project-overlay-links">
+                                <a href="https://github.com/khushi-verma07/HR_Management" target="_blank" class="project-overlay-btn" aria-label="GitHub Code"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Database / Console</span>
+                        <h3 class="project-title">HR Management System</h3>
+                        <p class="project-desc">A database-driven application handling employee metrics, salary details, holiday calculations, and distinct role management logic (Employee/Admin HR).</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Core Java</span>
+                            <span class="project-tag">JDBC</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">OOPs</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Resume CTA Card -->
+            <div class="resume-cta-card fade-in-element">
+                <h3 class="resume-cta-title">Looking for my detailed credentials?</h3>
+                <p class="resume-cta-desc">You can check out my interactive resume directly on the page, or download a physical copy for review.</p>
+                <div class="resume-cta-buttons">
+                    <button class="btn btn-primary" id="viewResumeBtn"><i class="fa-solid fa-file-invoice"></i> View Resume</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header fade-in-element">
+                <span class="section-tag">My Path</span>
+                <h2 class="section-title">Education & Profile</h2>
+                <p class="section-desc">My academic background and key developer highlights showcasing my foundation as an IT professional.</p>
+            </div>
+
+            <div class="edu-exp-container">
+                <!-- Education (Left Column) -->
+                <div>
+                    <h3 class="timeline-section-title"><i class="fa-solid fa-book-open"></i> Education</h3>
+                    <div class="timeline fade-in-element">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-year">2023 – 2026</span>
+                                <h4>Sant Singaji Institute of Science and Management</h4>
+                                <h5>Bachelor of Computer Application (BCA)</h5>
+                                <p>Currently pursuing BCA with strong focuses on computer application foundations, database management systems, and programming theory.</p>
+                                <ul class="timeline-bullets">
+                                    <li>CGPA : 8.47</li>
+                                    <li>Percentage : 84.7%</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-year">2020 – 2022</span>
+                                <h4>Saraswati Vidhya Mandir</h4>
+                                <h5>Higher Secondary Certificate (12th)</h5>
+                                <p>Focused in Science and Mathematics streams, providing analytical and structural problem-solving bases.</p>
+                                <ul class="timeline-bullets">
+                                    <li>Overall Score: 80.2%</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-year">2020</span>
+                                <h4>Saraswati Vidhya Mandir</h4>
+                                <h5>Secondary School Certificate (10th)</h5>
+                                <p>Foundational education with academic honors in general subjects.</p>
+                                <ul class="timeline-bullets">
+                                    <li>Graduated with Distinction: 99%</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Highlights (Right Column) -->
+                <div>
+                    <h3 class="timeline-section-title"><i class="fa-solid fa-briefcase"></i> Experience & Training</h3>
+                    <div class="timeline fade-in-element">
+                        <div class="timeline-item">
+                            <div class="timeline-dot" style="border-color: var(--color-secondary);"></div>
+                            <div class="timeline-content" style="border-left-color: var(--color-secondary);">
+                                <span class="timeline-year" style="background: rgba(139, 92, 246, 0.05); color: var(--color-secondary);">Oct 2025 – Present</span>
+                                <h4>Associate Software Engineer</h4>
+                                <h5>AverrIQA Solutions</h5>
+                                <p>Developing responsive web solutions, integrating secure REST APIs, and collaborating on product features using modern full-stack methodologies.Work on Creating ERP Systems, Website Development, Mobile Application Development, and CRM & HRMS Development.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot" style="border-color: var(--color-secondary);"></div>
+                            <div class="timeline-content" style="border-left-color: var(--color-secondary);">
+                                <span class="timeline-year" style="background: rgba(139, 92, 246, 0.05); color: var(--color-secondary);">3 Years Training</span>
+                                <h4>Frontend Web Development & IT Training</h4>
+                                <h5>UI/UX & Modern Web Architectures</h5>
+                                <p>Extensive training focused on building responsive, pixel-perfect user interfaces with React.js, modern CSS frameworks, state management, and core IT concepts.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header fade-in-element">
+                <span class="section-tag">Let's Talk</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-desc">Have a project, job opening, or want to say hello? Drop a line and I'll get back to you shortly.</p>
+            </div>
+
+            <div class="contact-grid fade-in-element">
+                <!-- Info cards -->
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 9302306764</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="contact-details">
+                            <h4>Email Addresses</h4>
+                            <p>khushivrma07@gmail.com</p>
+                            <p>khushiv0107@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Indore Road, Harda, District Harda, Madhya Pradesh - 461331, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-card">
+                    <form id="contactForm" novalidate>
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" id="name" class="form-input" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" id="email" class="form-input" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" class="form-input" placeholder="Project details" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-input" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                            Send Message <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <span class="gradient-text">Khushi Verma</span>
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com/khushi-verma07" target="_blank" class="social-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/khushiiverma/" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:khushivrma07@gmail.com" class="social-link" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p class="footer-copy">
+                &copy; 2026 Khushi Verma. All Rights Reserved. Built with <i class="fa-solid fa-heart" style="color: #e25555;"></i> in India.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Interactive Resume Modal -->
+    <div class="resume-modal" id="resumeModal">
+        <div class="resume-modal-content">
+            <div class="resume-modal-header">
+                <h3 class="resume-modal-title">Khushi Verma - Professional Resume</h3>
+                <div class="resume-modal-actions">
+                    <button class="resume-close-btn" id="closeResumeBtn" aria-label="Close Modal"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+            </div>
+            <div class="resume-modal-body">
+                <div class="resume-sheet">
+                    <h2>Khushi Verma</h2>
+                    <p class="resume-sheet-subtitle">MERN Stack Developer | IT Fresher</p>
+                    
+                    <!-- Profile Contact -->
+                    <div class="resume-sheet-row">
+                        <div class="resume-sheet-sidebar">Contact Information</div>
+                        <div class="resume-sheet-body">
+                            <p><i class="fa-solid fa-envelope"></i> khushivrma07@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i> +91 9302306764</p>
+                            <p><i class="fa-solid fa-location-dot"></i> Harda, Madhya Pradesh, India</p>
+                            <p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/khushiiverma</p>
+                            <p><i class="fa-brands fa-github"></i> github.com/khushi-verma07</p>
+                        </div>
+                    </div>
+
+                    <!-- Profile Summary -->
+                    <div class="resume-sheet-section">
+                        <h3 class="resume-sheet-section-title">Summary</h3>
+                        <div class="resume-sheet-row">
+                            <div class="resume-sheet-sidebar">About me</div>
+                            <div class="resume-sheet-body">
+                                <p>Passionate MERN Stack Developer and IT Fresher with hands-on expertise in creating responsive, modular web structures. Enthusiastic towards resolving API patterns, database structuring, and maintaining performant application cycles.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="resume-sheet-section">
+                        <h3 class="resume-sheet-section-title">Core Skills</h3>
+                        <div class="resume-sheet-row">
+                            <div class="resume-sheet-sidebar">Tech Stack</div>
+                            <div class="resume-sheet-body">
+                                <p><strong>Frontend:</strong> React.js, HTML5, CSS3, JavaScript (ES6+), jQuery, WordPress, Tailwind CSS, Bootstrap</p>
+                                <p><strong>Backend & Databases:</strong> Node.js, Express.js, PHP, MongoDB, SQL, MySQL</p>
+                                <p><strong>Languages & Theory:</strong> Core Java, Git, GitHub, OOPs Concept</p>
+                            </div>
+                        </div>
+                        <div class="resume-sheet-row" style="margin-top: 8px;">
+                            <div class="resume-sheet-sidebar">Soft Skills</div>
+                            <div class="resume-sheet-body">
+                                <p>Agility, Effective Communication, Teamwork, Time Management, Critical Thinking, Self-motivation</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projects -->
+                    <div class="resume-sheet-section">
+                        <h3 class="resume-sheet-section-title">Key Projects</h3>
+                        
+                        <div class="resume-sheet-row">
+                            <div class="resume-sheet-sidebar">HelpDesk System</div>
+                            <div class="resume-sheet-body">
+                                <h4>HelpDesk Management System (Full Stack)</h4>
+                                <p>A secure ticketing platform with customized dashboard interfaces. Implemented issue creation, role-based ticket assignment, live updates, and detailed resolution status tracking.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="resume-sheet-row">
+                            <div class="resume-sheet-sidebar">Food-Zone</div>
+                            <div class="resume-sheet-body">
+                                <h4>Food Ordering Application (MERN Stack)</h4>
+                                <p>Constructed complete client-admin separation. User-side features ordering checkout loops and secure payment integration. Admin portal enables dynamic category modification.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="resume-sheet-row" style="margin-top: 12px;">
+                            <div class="resume-sheet-sidebar">EduLinker</div>
+                            <div class="resume-sheet-body">
+                                <h4>Resource Sharing Portal (Full Stack)</h4>
+                                <p>MERN stack development with Razorpay transactions. Integrated custom recommendation modules to suggest related material. Embedded filter controllers for search matching.</p>
+                            </div>
+                        </div>
+
+                        <div class="resume-sheet-row" style="margin-top: 12px;">
+                            <div class="resume-sheet-sidebar">Astroventure</div>
+                            <div class="resume-sheet-body">
+                                <h4>Astroventure Website (Frontend - In Process)</h4>
+                                <p>An interactive celestial travel simulation website. Features custom spacecraft selectors, flight dynamics controls, and progress dashboard metrics.</p>
+                            </div>
+                        </div>
+
+                        <div class="resume-sheet-row" style="margin-top: 12px;">
+                            <div class="resume-sheet-sidebar">E-Commerce</div>
+                            <div class="resume-sheet-body">
+                                <h4>Clothing Marketplace UI (Frontend)</h4>
+                                <p>Fluid mobile-first templates built in Bootstrap and Javascript. Focuses on animations, quick-cart views, category filters, and intuitive checkout layout.</p>
+                            </div>
+                        </div>
+
+                        <div class="resume-sheet-row" style="margin-top: 12px;">
+                            <div class="resume-sheet-sidebar">RSS Client</div>
+                            <div class="resume-sheet-body">
+                                <h4>RSS Client Website (Frontend)</h4>
+                                <p>Sleek, responsive content curation interface. Implemented modern article display panels, dynamic sorting tabs, and fully mobile-optimized navigation structures.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="resume-sheet-section">
+                        <h3 class="resume-sheet-section-title">Education</h3>
+                        <div class="resume-sheet-row">
+                            <div class="resume-sheet-sidebar">2023 - 2026</div>
+                            <div class="resume-sheet-body">
+                                <h4>Sant Singaji Institute of Science and Management</h4>
+                                <p>Bachelor of Computer Application (BCA)</p>
+                                <p>1st Year SGPA: 8.05 | 2nd Year SGPA: 8.35</p>
+                            </div>
+                        </div>
+                        <div class="resume-sheet-row" style="margin-top: 12px;">
+                            <div class="resume-sheet-sidebar">2022</div>
+                            <div class="resume-sheet-body">
+                                <h4>Saraswati Vidhya Mandir</h4>
+                                <p>Higher Secondary Certificate (12th Class) - Science stream | 80.2%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor Elements -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-circle" id="cursorCircle"></div>
+
+    <!-- Main JavaScript Logic -->
+    <script src="script.js"></script>
+</body>
+</html>
